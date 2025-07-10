@@ -1,21 +1,51 @@
 {
     "Business & Finance": [
-        {
-            "prompt": "A group of professionals in a high-energy boardroom meeting",
-            "title": "Dynamic Boardroom Discussion",
-            "keywords": ["business", "meeting", "boardroom", "professionals", "finance"]
-        },
-        {
-            "prompt": "A stock trader analyzing market trends on a digital screen",
-            "title": "Stock Market Trading",
-            "keywords": ["finance", "trading", "stock market", "analysis", "business"]
-        },
-        {
-            "prompt": "Entrepreneurs pitching a startup idea to investors",
-            "title": "Startup Pitch Presentation",
-            "keywords": ["business", "startup", "pitch", "investors", "entrepreneurship"]
-        }
-    ],
+    {
+        "prompt": "A group of professionals in a high-energy boardroom meeting",
+        "title": "Dynamic Boardroom Discussion",
+        "keywords": ["business", "meeting", "boardroom", "professionals", "finance"]
+    },
+    {
+        "prompt": "A stock trader analyzing market trends on a digital screen",
+        "title": "Stock Market Trading",
+        "keywords": ["finance", "trading", "stock market", "analysis", "business"]
+    },
+    {
+        "prompt": "Entrepreneurs pitching a startup idea to investors",
+        "title": "Startup Pitch Presentation",
+        "keywords": ["business", "startup", "pitch", "investors", "entrepreneurship"]
+    },
+    {
+        "prompt": "A financial analyst reviewing performance reports at a desk",
+        "title": "Financial Analysis in Progress",
+        "keywords": ["finance", "analysis", "reports", "analyst", "business"]
+    },
+    {
+        "prompt": "A manager giving a presentation with financial charts on a large screen",
+        "title": "Manager Presenting Financial Strategy",
+        "keywords": ["presentation", "charts", "business", "strategy", "manager"]
+    },
+    {
+        "prompt": "Two executives shaking hands after closing a deal in a modern office",
+        "title": "Business Deal Closure",
+        "keywords": ["deal", "agreement", "business", "executives", "office"]
+    },
+    {
+        "prompt": "Remote employees participating in a virtual finance meeting via video call",
+        "title": "Remote Finance Meeting",
+        "keywords": ["remote work", "video call", "finance", "collaboration", "business"]
+    },
+    {
+        "prompt": "A consultant advising a client on investment opportunities",
+        "title": "Consulting Session on Investments",
+        "keywords": ["consulting", "investment", "finance", "client", "advice"]
+    },
+    {
+        "prompt": "An accountant preparing tax documents in a professional workspace",
+        "title": "Tax Preparation by Accountant",
+        "keywords": ["accounting", "tax", "documents", "finance", "workspace"]
+    }
+],
     "Technology": [
         {
             "prompt": "A software developer working on code in a modern tech office",
