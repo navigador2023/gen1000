@@ -1,0 +1,316 @@
+<script type="text/javascript">
+        var gk_isXlsx = false;
+        var gk_xlsxFileLookup = {};
+        var gk_fileData = {};
+        function filledCell(cell) {
+          return cell !== '' && cell != null;
+        }
+        function loadFileData(filename) {
+        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+            try {
+                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
+                var firstSheetName = workbook.SheetNames[0];
+                var worksheet = workbook.Sheets[firstSheetName];
+
+                // Convert sheet to JSON to filter blank rows
+                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
+                // Filter out blank rows (rows where all cells are empty, null, or undefined)
+                var filteredData = jsonData.filter(row => row.some(filledCell));
+
+                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
+                var headerRowIndex = filteredData.findIndex((row, index) =>
+                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
+                );
+                // Fallback
+                if (headerRowIndex === -1 || headerRowIndex > 25) {
+                  headerRowIndex = 0;
+                }
+
+                // Convert filtered JSON back to CSV
+                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
+                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
+                return csv;
+            } catch (e) {
+                console.error(e);
+                return "";
+            }
+        }
+        return gk_fileData[filename] || "";
+        }
+        </script><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Photography Prompt Generator</title>
+    <style>
+        :root {
+            --primary-color: #1E88E5;
+            --secondary-color: #F5F7FA;
+            --text-color: #2D3748;
+            --error-color: #E53E3E;
+            --border-radius: 8px;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background: white;
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            text-align: center;
+            color: var(--text-color);
+        }
+
+        p {
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            color: #4A5568;
+        }
+
+        .input-group {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        select, button {
+            width: 100%;
+            padding: 0.75rem;
+            font-size: 1rem;
+            border-radius: var(--border-radius);
+            border: 1px solid #E2E8F0;
+            transition: all 0.2s ease;
+        }
+
+        select:focus, button:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(30, 136, 229, 0.2);
+        }
+
+        button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        button:hover:not(:disabled) {
+            background-color: #1565C0;
+        }
+
+        button:disabled {
+            background-color: #B0BEC5;
+            cursor: not-allowed;
+        }
+
+        .output-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .output-group h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .output {
+            background-color: var(--secondary-color);
+            padding: 1rem;
+            border-radius: var(--border-radius);
+            border: 1px solid #E2E8F0;
+            min-height: 60px;
+            font-size: 0.95rem;
+            word-break: break-word;
+        }
+
+        .copy-btn {
+            margin-top: 0.5rem;
+            background-color: #4A5568;
+        }
+
+        .copy-btn:hover:not(:disabled) {
+            background-color: #2D3748;
+        }
+
+        .error {
+            color: var(--error-color);
+            font-size: 0.9rem;
+            margin-top: 1rem;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1rem;
+            }
+
+            .container {
+                padding: 1.5rem;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Stock Photography Prompt Generator</h1>
+        <p>Generate creative prompts for stock photography with a single click. Select a category to create unique ideas with optimized keywords.</p>
+
+        <div class="input-group">
+            <label for="category">Select Category</label>
+            <select id="category" aria-label="Select a category for prompt generation">
+                <option value="">Select a category</option>
+            </select>
+        </div>
+
+        <button id="generate-btn" onclick="generatePrompt()" disabled>Generate Prompt</button>
+
+        <div class="output-group">
+            <h3>Prompt</h3>
+            <div id="prompt" class="output">Select a category and click generate</div>
+            <button class="copy-btn" onclick="copyText('prompt')">Copy Prompt</button>
+        </div>
+
+        <div class="output-group">
+            <h3>Title</h3>
+            <div id="title" class="output"></div>
+            <button class="copy-btn" onclick="copyText('title')">Copy Title</button>
+        </div>
+
+        <div class="output-group">
+            <h3>Keywords</h3>
+            <div id="keywords" class="output"></div>
+            <button class="copy-btn" onclick="copyText('keywords')">Copy Keywords</button>
+        </div>
+
+        <div id="error" class="error"></div>
+    </div>
+
+    <script>
+        let promptData = {
+            "Default": [
+                {
+                    "prompt": "A generic scene for stock photography",
+                    "title": "Generic Stock Image",
+                    "keywords": ["generic", "stock", "placeholder"]
+                }
+            ]
+        };
+
+        const generateBtn = document.getElementById('generate-btn');
+
+        // Load JSON file from server
+        async function loadPromptData() {
+            const errorDiv = document.getElementById('error');
+            const jsonPath = './prompts.json'; // Explicit relative path
+            try {
+                console.log(`Attempting to load JSON from: ${jsonPath}`);
+                const response = await fetch(jsonPath, {
+                    method: 'GET',
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status} (File: ${jsonPath})`);
+                }
+                const data = await response.json();
+                if (Object.keys(data).length === 0) {
+                    throw new Error('JSON file is empty or invalid');
+                }
+                promptData = { ...promptData, ...data };
+                console.log('JSON loaded successfully:', promptData);
+                populateCategories();
+                generateBtn.disabled = false;
+                errorDiv.textContent = '';
+            } catch (error) {
+                console.error('Error loading JSON:', error.message);
+                errorDiv.textContent = `Failed to load prompts.json: ${error.message}. Using default data.`;
+                if (error.message.includes('Failed to fetch')) {
+                    errorDiv.textContent += ' Ensure you are running this on a local server (e.g., Python: python -m http.server).';
+                }
+                populateCategories();
+                generateBtn.disabled = false;
+            }
+        }
+
+        // Populate category dropdown
+        function populateCategories() {
+            const categorySelect = document.getElementById('category');
+            categorySelect.innerHTML = '<option value="">Select a category</option>';
+            for (const category in promptData) {
+                const option = document.createElement('option');
+                option.value = category;
+                option.textContent = category;
+                categorySelect.appendChild(option);
+            }
+        }
+
+        // Generate random prompt, title, and keywords
+        function generatePrompt() {
+            const category = document.getElementById('category').value;
+            if (!category || !promptData[category]) {
+                alert('Please select a valid category');
+                return;
+            }
+
+            const items = promptData[category];
+            const randomItem = items[Math.floor(Math.random() * items.length)];
+
+            document.getElementById('prompt').textContent = randomItem.prompt;
+            document.getElementById('title').textContent = randomItem.title;
+            document.getElementById('keywords').textContent = randomItem.keywords.join(', ');
+        }
+
+        // Copy text to clipboard
+        function copyText(elementId) {
+            const text = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                alert('Copied to clipboard!');
+            }).catch(err => {
+                console.error('Error copying text:', err);
+                alert('Failed to copy text.');
+            });
+        }
+
+        // Load prompt data on page load
+        window.onload = loadPromptData;
+    </script>
+</body>
+</html>
