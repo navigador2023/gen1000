@@ -47,22 +47,52 @@
     }
 ],
     "Technology": [
-        {
-            "prompt": "A software developer working on code in a modern tech office",
-            "title": "Coding in Tech Environment",
-            "keywords": ["technology", "coding", "developer", "office", "software"]
-        },
-        {
-            "prompt": "A close-up of a futuristic AI interface with holographic displays",
-            "title": "Futuristic AI Interface",
-            "keywords": ["technology", "AI", "holographic", "interface", "futuristic"]
-        },
-        {
-            "prompt": "Engineers testing a new drone in an open field",
-            "title": "Drone Technology Testing",
-            "keywords": ["technology", "drone", "engineering", "testing", "innovation"]
-        }
-    ],
+    {
+        "prompt": "A software developer working on code in a modern tech office",
+        "title": "Coding in Tech Environment",
+        "keywords": ["technology", "coding", "developer", "office", "software"]
+    },
+    {
+        "prompt": "A close-up of a futuristic AI interface with holographic displays",
+        "title": "Futuristic AI Interface",
+        "keywords": ["technology", "AI", "holographic", "interface", "futuristic"]
+    },
+    {
+        "prompt": "Engineers testing a new drone in an open field",
+        "title": "Drone Technology Testing",
+        "keywords": ["technology", "drone", "engineering", "testing", "innovation"]
+    },
+    {
+        "prompt": "An IT specialist monitoring cybersecurity dashboards in a dark operations center",
+        "title": "Cybersecurity Operations",
+        "keywords": ["technology", "cybersecurity", "IT", "security", "network"]
+    },
+    {
+        "prompt": "A UX designer sketching wireframes on a digital tablet in a creative workspace",
+        "title": "User Experience Design Session",
+        "keywords": ["UX", "design", "technology", "wireframes", "digital"]
+    },
+    {
+        "prompt": "Robotics engineers assembling parts of a humanoid robot in a lab",
+        "title": "Robotics Engineering Lab",
+        "keywords": ["robotics", "technology", "engineering", "lab", "innovation"]
+    },
+    {
+        "prompt": "A data analyst reviewing interactive dashboards and graphs on multiple monitors",
+        "title": "Data Analytics in Action",
+        "keywords": ["data", "analytics", "technology", "graphs", "visualization"]
+    },
+    {
+        "prompt": "A group of developers collaborating on a software project using laptops and whiteboards",
+        "title": "Team Software Collaboration",
+        "keywords": ["developers", "coding", "team", "technology", "collaboration"]
+    },
+    {
+        "prompt": "A technician performing maintenance on high-tech servers in a data center",
+        "title": "Data Center Maintenance",
+        "keywords": ["technology", "servers", "data center", "technician", "IT"]
+    }
+],
     "Health & Medical": [
     {
         "prompt": "A doctor performing a routine check-up in a bright clinic",
