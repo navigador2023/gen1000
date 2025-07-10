@@ -141,22 +141,52 @@
     }
 ],
     "Education": [
-        {
-            "prompt": "Students collaborating on a science project in a classroom",
-            "title": "Collaborative Classroom Project",
-            "keywords": ["education", "students", "classroom", "science", "learning"]
-        },
-        {
-            "prompt": "A professor lecturing in a university auditorium",
-            "title": "University Lecture",
-            "keywords": ["education", "professor", "lecture", "university", "learning"]
-        },
-        {
-            "prompt": "Children reading books in a colorful school library",
-            "title": "School Library Reading",
-            "keywords": ["education", "children", "library", "reading", "school"]
-        }
-    ],
+    {
+        "prompt": "Students collaborating on a science project in a classroom",
+        "title": "Collaborative Classroom Project",
+        "keywords": ["education", "students", "classroom", "science", "learning"]
+    },
+    {
+        "prompt": "A professor lecturing in a university auditorium",
+        "title": "University Lecture",
+        "keywords": ["education", "professor", "lecture", "university", "learning"]
+    },
+    {
+        "prompt": "Children reading books in a colorful school library",
+        "title": "School Library Reading",
+        "keywords": ["education", "children", "library", "reading", "school"]
+    },
+    {
+        "prompt": "High school students taking a written exam in a classroom setting",
+        "title": "Classroom Exam",
+        "keywords": ["education", "students", "exam", "classroom", "test"]
+    },
+    {
+        "prompt": "A teacher helping a student understand math on a whiteboard",
+        "title": "Math Help Session",
+        "keywords": ["education", "teacher", "student", "math", "whiteboard"]
+    },
+    {
+        "prompt": "Graduates throwing their caps in the air during a commencement ceremony",
+        "title": "Graduation Celebration",
+        "keywords": ["education", "graduation", "students", "ceremony", "achievement"]
+    },
+    {
+        "prompt": "Students using tablets and laptops during a digital learning session",
+        "title": "Digital Learning Environment",
+        "keywords": ["education", "technology", "students", "digital", "learning"]
+    },
+    {
+        "prompt": "A group of children learning how to code on computers in a classroom",
+        "title": "Coding Class for Kids",
+        "keywords": ["education", "coding", "children", "technology", "classroom"]
+    },
+    {
+        "prompt": "An art teacher guiding students during a painting lesson",
+        "title": "Art Class Instruction",
+        "keywords": ["education", "art", "students", "painting", "teacher"]
+    }
+],
     "Lifestyle": [
         {
             "prompt": "A family enjoying a barbecue in their backyard",
