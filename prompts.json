@@ -64,22 +64,52 @@
         }
     ],
     "Health & Medical": [
-        {
-            "prompt": "A doctor performing a routine check-up in a bright clinic",
-            "title": "Routine Medical Check-Up",
-            "keywords": ["healthcare", "doctor", "check-up", "clinic", "medical"]
-        },
-        {
-            "prompt": "A team of surgeons operating in a sterile surgical room",
-            "title": "Surgical Procedure",
-            "keywords": ["medical", "surgery", "surgeons", "hospital", "healthcare"]
-        },
-        {
-            "prompt": "A patient receiving physical therapy in a rehabilitation center",
-            "title": "Physical Therapy Session",
-            "keywords": ["health", "physical therapy", "rehabilitation", "patient", "medical"]
-        }
-    ],
+    {
+        "prompt": "A doctor performing a routine check-up in a bright clinic",
+        "title": "Routine Medical Check-Up",
+        "keywords": ["healthcare", "doctor", "check-up", "clinic", "medical"]
+    },
+    {
+        "prompt": "A team of surgeons operating in a sterile surgical room",
+        "title": "Surgical Procedure",
+        "keywords": ["medical", "surgery", "surgeons", "hospital", "healthcare"]
+    },
+    {
+        "prompt": "A patient receiving physical therapy in a rehabilitation center",
+        "title": "Physical Therapy Session",
+        "keywords": ["health", "physical therapy", "rehabilitation", "patient", "medical"]
+    },
+    {
+        "prompt": "A nurse administering a vaccine to a patient in a clinical setting",
+        "title": "Vaccination Procedure",
+        "keywords": ["nurse", "vaccine", "clinic", "health", "immunization"]
+    },
+    {
+        "prompt": "A medical researcher analyzing blood samples in a laboratory",
+        "title": "Medical Research Lab Work",
+        "keywords": ["research", "laboratory", "blood samples", "medical", "science"]
+    },
+    {
+        "prompt": "A pediatrician examining a child with a stethoscope",
+        "title": "Child Health Examination",
+        "keywords": ["pediatrician", "child", "healthcare", "clinic", "doctor"]
+    },
+    {
+        "prompt": "A hospital team discussing a patient’s treatment plan around a monitor",
+        "title": "Collaborative Medical Planning",
+        "keywords": ["team", "treatment", "healthcare", "planning", "hospital"]
+    },
+    {
+        "prompt": "An elderly patient talking with a caregiver in a senior care facility",
+        "title": "Elderly Patient Support",
+        "keywords": ["elderly", "caregiver", "senior care", "health", "support"]
+    },
+    {
+        "prompt": "A dentist performing a dental examination in a modern dental office",
+        "title": "Dental Check-Up",
+        "keywords": ["dentist", "oral health", "dental", "examination", "clinic"]
+    }
+],
     "Education": [
         {
             "prompt": "Students collaborating on a science project in a classroom",
