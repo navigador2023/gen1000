@@ -658,22 +658,52 @@
     }
 ],
     "Science & Research": [
-        {
-            "prompt": "A scientist conducting experiments in a high-tech lab",
-            "title": "High-Tech Lab Research",
-            "keywords": ["science", "research", "scientist", "lab", "experiment"]
-        },
-        {
-            "prompt": "A telescope capturing images of distant stars",
-            "title": "Astronomical Observation",
-            "keywords": ["science", "telescope", "astronomy", "research", "stars"]
-        },
-        {
-            "prompt": "Researchers analyzing data on computer screens",
-            "title": "Data-Driven Research",
-            "keywords": ["science", "research", "data", "analysis", "technology"]
-        }
-    ],
+    {
+        "prompt": "A scientist conducting experiments in a high-tech lab",
+        "title": "High-Tech Lab Research",
+        "keywords": ["science", "research", "scientist", "lab", "experiment", "technology", "innovation", "discovery", "high-tech", "laboratory"]
+    },
+    {
+        "prompt": "A telescope capturing images of distant stars",
+        "title": "Astronomical Observation",
+        "keywords": ["science", "telescope", "astronomy", "research", "stars", "space", "observation", "cosmos", "astrophysics", "universe"]
+    },
+    {
+        "prompt": "Researchers analyzing data on computer screens",
+        "title": "Data-Driven Research",
+        "keywords": ["science", "research", "data", "analysis", "technology", "computers", "analytics", "information", "study", "digital"]
+    },
+    {
+        "prompt": "A biologist examining specimens under a microscope",
+        "title": "Microscopic Biological Study",
+        "keywords": ["science", "research", "biology", "microscope", "specimens", "study", "cellular", "laboratory", "analysis", "life sciences"]
+    },
+    {
+        "prompt": "A team conducting fieldwork in a remote ecosystem",
+        "title": "Ecosystem Field Research",
+        "keywords": ["science", "research", "fieldwork", "ecosystem", "environment", "nature", "study", "biodiversity", "outdoor", "ecology"]
+    },
+    {
+        "prompt": "A chemist mixing compounds in a laboratory",
+        "title": "Chemical Compound Experiment",
+        "keywords": ["science", "research", "chemistry", "laboratory", "compounds", "experiment", "chemical", "analysis", "synthesis", "lab"]
+    },
+    {
+        "prompt": "A physicist working on a quantum computing project",
+        "title": "Quantum Computing Research",
+        "keywords": ["science", "research", "physics", "quantum", "computing", "technology", "innovation", "experiment", "computation", "future"]
+    },
+    {
+        "prompt": "A group of scientists discussing findings at a conference",
+        "title": "Scientific Conference Discussion",
+        "keywords": ["science", "research", "conference", "discussion", "scientists", "collaboration", "findings", "knowledge", "presentation", "academic"]
+    },
+    {
+        "prompt": "An engineer testing a prototype in a research facility",
+        "title": "Prototype Testing Facility",
+        "keywords": ["science", "research", "engineering", "prototype", "testing", "facility", "innovation", "technology", "development", "experiment"]
+    }
+],
     "Holidays & Celebrations": [
         {
             "prompt": "A festive holiday market with colorful lights",
