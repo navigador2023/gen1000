@@ -329,22 +329,52 @@
     }
 ],
     "Food & Drink": [
-        {
-            "prompt": "A chef preparing a gourmet dish in a professional kitchen",
-            "title": "Gourmet Kitchen Preparation",
-            "keywords": ["food", "chef", "gourmet", "kitchen", "cooking"]
-        },
-        {
-            "prompt": "A colorful fruit smoothie bowl with fresh toppings",
-            "title": "Healthy Smoothie Bowl",
-            "keywords": ["food", "smoothie", "healthy", "breakfast", "drink"]
-        },
-        {
-            "prompt": "A rustic table with a variety of artisanal cheeses",
-            "title": "Artisanal Cheese Display",
-            "keywords": ["food", "cheese", "rustic", "gourmet", "dining"]
-        }
-    ],
+    {
+        "prompt": "A chef preparing a gourmet dish in a professional kitchen",
+        "title": "Gourmet Kitchen Preparation",
+        "keywords": ["food", "chef", "gourmet", "kitchen", "cooking", "culinary", "professional", "cuisine", "fine dining", "preparation"]
+    },
+    {
+        "prompt": "A colorful fruit smoothie bowl with fresh toppings",
+        "title": "Healthy Smoothie Bowl",
+        "keywords": ["food", "smoothie", "healthy", "breakfast", "drink", "fruit", "fresh", "nutrition", "colorful", "bowl"]
+    },
+    {
+        "prompt": "A rustic table with a variety of artisanal cheeses",
+        "title": "Artisanal Cheese Display",
+        "keywords": ["food", "cheese", "rustic", "gourmet", "dining", "artisanal", "table", "variety", "tasting", "delicacy"]
+    },
+    {
+        "prompt": "A vibrant farmers market stall with fresh vegetables",
+        "title": "Farmers Market Vegetable Stall",
+        "keywords": ["food", "vegetables", "farmers market", "fresh", "produce", "organic", "healthy", "market", "colorful", "local"]
+    },
+    {
+        "prompt": "A barista crafting a latte with intricate foam art",
+        "title": "Latte Art Creation",
+        "keywords": ["drink", "coffee", "barista", "latte", "art", "café", "beverage", "foam", "craft", "espresso"]
+    },
+    {
+        "prompt": "A family enjoying a homemade pizza night",
+        "title": "Homemade Pizza Night",
+        "keywords": ["food", "pizza", "homemade", "family", "dining", "fun", "cooking", "meal", "togetherness", "Italian"]
+    },
+    {
+        "prompt": "A refreshing iced tea with citrus slices on a sunny patio",
+        "title": "Citrus Iced Tea Patio",
+        "keywords": ["drink", "iced tea", "citrus", "refreshing", "patio", "summer", "beverage", "relaxation", "sunny", "cool"]
+    },
+    {
+        "prompt": "A baker decorating a freshly baked cake with intricate designs",
+        "title": "Cake Decoration Scene",
+        "keywords": ["food", "baking", "cake", "decoration", "dessert", "pastry", "sweet", "culinary", "artistic", "confectionery"]
+    },
+    {
+        "prompt": "A cozy wine tasting event with a selection of red and white wines",
+        "title": "Cozy Wine Tasting",
+        "keywords": ["drink", "wine", "tasting", "cozy", "event", "vineyard", "red wine", "white wine", "gourmet", "social"]
+    }
+],
     "People & Emotions": [
         {
             "prompt": "A joyful family reunion with hugs and smiles",
