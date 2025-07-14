@@ -423,22 +423,52 @@
     }
 ],
     "Sports & Fitness": [
-        {
-            "prompt": "A runner sprinting on a coastal trail at sunrise",
-            "title": "Coastal Trail Run",
-            "keywords": ["sports", "running", "fitness", "trail", "sunrise"]
-        },
-        {
-            "prompt": "A yoga instructor leading a class in a park",
-            "title": "Outdoor Yoga Class",
-            "keywords": ["fitness", "yoga", "park", "exercise", "sports"]
-        },
-        {
-            "prompt": "A soccer player kicking a ball during a match",
-            "title": "Soccer Match Action",
-            "keywords": ["sports", "soccer", "action", "player", "fitness"]
-        }
-    ],
+    {
+        "prompt": "A runner sprinting on a coastal trail at sunrise",
+        "title": "Coastal Trail Run",
+        "keywords": ["sports", "running", "fitness", "trail", "sunrise", "exercise", "coastal", "endurance", "outdoor", "scenic"]
+    },
+    {
+        "prompt": "A yoga instructor leading a class in a park",
+        "title": "Outdoor Yoga Class",
+        "keywords": ["fitness", "yoga", "park", "exercise", "sports", "wellness", "stretching", "nature", "group", "balance"]
+    },
+    {
+        "prompt": "A soccer player kicking a ball during a match",
+        "title": "Soccer Match Action",
+        "keywords": ["sports", "soccer", "action", "player", "fitness", "team", "competition", "ball", "match", "energy"]
+    },
+    {
+        "prompt": "A cyclist riding through a mountainous terrain",
+        "title": "Mountain Cycling Adventure",
+        "keywords": ["sports", "cycling", "fitness", "mountains", "adventure", "outdoor", "biking", "endurance", "scenic", "challenge"]
+    },
+    {
+        "prompt": "A group of friends playing beach volleyball",
+        "title": "Beach Volleyball Game",
+        "keywords": ["sports", "volleyball", "beach", "fitness", "friends", "team", "fun", "sand", "active", "summer"]
+    },
+    {
+        "prompt": "A swimmer diving into a pool during a competition",
+        "title": "Competitive Swimming Dive",
+        "keywords": ["sports", "swimming", "fitness", "competition", "pool", "dive", "athlete", "water", "speed", "performance"]
+    },
+    {
+        "prompt": "A person lifting weights in a modern gym",
+        "title": "Gym Weightlifting Session",
+        "keywords": ["fitness", "weightlifting", "gym", "sports", "exercise", "strength", "training", "muscle", "workout", "health"]
+    },
+    {
+        "prompt": "A group hiking up a steep trail with backpacks",
+        "title": "Group Hiking Expedition",
+        "keywords": ["sports", "hiking", "fitness", "trail", "group", "adventure", "outdoor", "backpacking", "nature", "challenge"]
+    },
+    {
+        "prompt": "A tennis player serving during an intense match",
+        "title": "Tennis Match Serve",
+        "keywords": ["sports", "tennis", "fitness", "match", "serve", "competition", "court", "athlete", "action", "precision"]
+    }
+],
     "Architecture & Buildings": [
         {
             "prompt": "A modern glass skyscraper reflecting city lights at night",
