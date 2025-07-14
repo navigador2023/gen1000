@@ -799,22 +799,52 @@
     }
 ],
     "Animals & Wildlife": [
-        {
-            "prompt": "A herd of elephants walking across a savanna",
-            "title": "Elephant Herd in Savanna",
-            "keywords": ["animals", "wildlife", "elephants", "savanna", "nature"]
-        },
-        {
-            "prompt": "A colorful tropical bird perched on a branch",
-            "title": "Tropical Bird Portrait",
-            "keywords": ["animals", "wildlife", "bird", "tropical", "nature"]
-        },
-        {
-            "prompt": "A sea turtle swimming in clear ocean waters",
-            "title": "Sea Turtle in Ocean",
-            "keywords": ["animals", "wildlife", "sea turtle", "ocean", "marine"]
-        }
-    ],
+    {
+        "prompt": "A herd of elephants walking across a savanna",
+        "title": "Elephant Herd in Savanna",
+        "keywords": ["animals", "wildlife", "elephants", "savanna", "nature", "herd", "Africa", "migration", "grassland", "majestic"]
+    },
+    {
+        "prompt": "A colorful tropical bird perched on a branch",
+        "title": "Tropical Bird Portrait",
+        "keywords": ["animals", "wildlife", "bird", "tropical", "nature", "colorful", "perch", "feathers", "jungle", "exotic"]
+    },
+    {
+        "prompt": "A sea turtle swimming in clear ocean waters",
+        "title": "Sea Turtle in Ocean",
+        "keywords": ["animals", "wildlife", "sea turtle", "ocean", "marine", "swimming", "reef", "aquatic", "conservation", "water"]
+    },
+    {
+        "prompt": "A pride of lions resting under a tree in the savanna",
+        "title": "Lion Pride Resting",
+        "keywords": ["animals", "wildlife", "lions", "savanna", "nature", "pride", "resting", "Africa", "predator", "group"]
+    },
+    {
+        "prompt": "A polar bear walking on Arctic ice under the northern lights",
+        "title": "Polar Bear in Arctic",
+        "keywords": ["animals", "wildlife", "polar bear", "Arctic", "nature", "ice", "northern lights", "cold", "snow", "wild"]
+    },
+    {
+        "prompt": "A school of fish swimming in a vibrant coral reef",
+        "title": "Coral Reef Fish School",
+        "keywords": ["animals", "wildlife", "fish", "coral reef", "marine", "school", "ocean", "colorful", "biodiversity", "aquatic"]
+    },
+    {
+        "prompt": "A wolf howling at the moon in a forest clearing",
+        "title": "Wolf Howling in Forest",
+        "keywords": ["animals", "wildlife", "wolf", "forest", "nature", "howling", "moon", "night", "wilderness", "predator"]
+    },
+    {
+        "prompt": "A group of penguins waddling on a snowy Antarctic slope",
+        "title": "Penguin March in Antarctica",
+        "keywords": ["animals", "wildlife", "penguins", "Antarctica", "nature", "snow", "waddling", "group", "cold", "ice"]
+    },
+    {
+        "prompt": "A cheetah sprinting across an open plain",
+        "title": "Cheetah Sprint on Plain",
+        "keywords": ["animals", "wildlife", "cheetah", "plain", "nature", "sprint", "speed", "Africa", "predator", "grassland"]
+    }
+],
     "Real Estate & Interiors": [
         {
             "prompt": "A modern apartment with panoramic city views",
