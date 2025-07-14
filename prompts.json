@@ -470,22 +470,52 @@
     }
 ],
     "Architecture & Buildings": [
-        {
-            "prompt": "A modern glass skyscraper reflecting city lights at night",
-            "title": "Urban Skyscraper Night",
-            "keywords": ["architecture", "skyscraper", "city", "night", "building"]
-        },
-        {
-            "prompt": "A historic cathedral with intricate stonework",
-            "title": "Historic Cathedral Architecture",
-            "keywords": ["architecture", "cathedral", "historic", "stonework", "building"]
-        },
-        {
-            "prompt": "A cozy wooden cabin in a snowy mountain setting",
-            "title": "Mountain Cabin Retreat",
-            "keywords": ["architecture", "cabin", "mountain", "snow", "building"]
-        }
-    ],
+    {
+        "prompt": "A modern glass skyscraper reflecting city lights at night",
+        "title": "Urban Skyscraper Night",
+        "keywords": ["architecture", "skyscraper", "city", "night", "building", "modern", "glass", "urban", "lights", "reflection"]
+    },
+    {
+        "prompt": "A historic cathedral with intricate stonework",
+        "title": "Historic Cathedral Architecture",
+        "keywords": ["architecture", "cathedral", "historic", "stonework", "building", "gothic", "heritage", "ornate", "religious", "design"]
+    },
+    {
+        "prompt": "A cozy wooden cabin in a snowy mountain setting",
+        "title": "Mountain Cabin Retreat",
+        "keywords": ["architecture", "cabin", "mountain", "snow", "building", "wooden", "cozy", "rustic", "winter", "retreat"]
+    },
+    {
+        "prompt": "A minimalist concrete house surrounded by lush greenery",
+        "title": "Minimalist Concrete Home",
+        "keywords": ["architecture", "house", "minimalist", "concrete", "building", "greenery", "modern", "design", "nature", "serene"]
+    },
+    {
+        "prompt": "A traditional Japanese temple with a pagoda roof",
+        "title": "Japanese Temple Architecture",
+        "keywords": ["architecture", "temple", "Japanese", "pagoda", "building", "traditional", "culture", "zen", "heritage", "design"]
+    },
+    {
+        "prompt": "A futuristic bridge illuminated with vibrant LED lights",
+        "title": "Futuristic LED Bridge",
+        "keywords": ["architecture", "bridge", "futuristic", "lights", "building", "LED", "modern", "urban", "structure", "innovation"]
+    },
+    {
+        "prompt": "A quaint stone cottage in a rural countryside",
+        "title": "Rural Stone Cottage",
+        "keywords": ["architecture", "cottage", "stone", "rural", "building", "quaint", "countryside", "rustic", "charm", "traditional"]
+    },
+    {
+        "prompt": "A sleek eco-friendly office building with solar panels",
+        "title": "Eco-Friendly Office Building",
+        "keywords": ["architecture", "office", "eco-friendly", "solar", "building", "modern", "sustainability", "green", "design", "innovation"]
+    },
+    {
+        "prompt": "A grand neoclassical mansion with lush gardens",
+        "title": "Neoclassical Mansion Estate",
+        "keywords": ["architecture", "mansion", "neoclassical", "gardens", "building", "grand", "heritage", "elegant", "estate", "luxury"]
+    }
+],
     "Transportation": [
         {
             "prompt": "A sleek electric car driving on a scenic highway",
