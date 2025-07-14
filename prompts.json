@@ -376,22 +376,52 @@
     }
 ],
     "People & Emotions": [
-        {
-            "prompt": "A joyful family reunion with hugs and smiles",
-            "title": "Family Reunion Joy",
-            "keywords": ["people", "emotions", "family", "reunion", "happiness"]
-        },
-        {
-            "prompt": "A person reflecting thoughtfully by a window",
-            "title": "Moment of Reflection",
-            "keywords": ["people", "emotions", "reflection", "thoughtful", "solitude"]
-        },
-        {
-            "prompt": "Friends celebrating a birthday with a cake",
-            "title": "Birthday Celebration",
-            "keywords": ["people", "emotions", "celebration", "birthday", "friends"]
-        }
-    ],
+    {
+        "prompt": "A joyful family reunion with hugs and smiles",
+        "title": "Family Reunion Joy",
+        "keywords": ["people", "emotions", "family", "reunion", "happiness", "togetherness", "joy", "hugs", "smiles", "connection"]
+    },
+    {
+        "prompt": "A person reflecting thoughtfully by a window",
+        "title": "Moment of Reflection",
+        "keywords": ["people", "emotions", "reflection", "thoughtful", "solitude", "contemplation", "introspection", "calm", "window", "serenity"]
+    },
+    {
+        "prompt": "Friends celebrating a birthday with a cake",
+        "title": "Birthday Celebration",
+        "keywords": ["people", "emotions", "celebration", "birthday", "friends", "party", "cake", "joy", "festive", "fun"]
+    },
+    {
+        "prompt": "A couple sharing a romantic moment under the stars",
+        "title": "Romantic Stargazing Moment",
+        "keywords": ["people", "emotions", "romance", "couple", "stargazing", "love", "night", "intimate", "stars", "connection"]
+    },
+    {
+        "prompt": "A child laughing while playing with a pet in a park",
+        "title": "Child and Pet Playtime",
+        "keywords": ["people", "emotions", "child", "pet", "play", "laughter", "park", "joy", "innocence", "fun"]
+    },
+    {
+        "prompt": "A person overcoming a challenge with determination",
+        "title": "Triumph Over Challenge",
+        "keywords": ["people", "emotions", "determination", "challenge", "triumph", "effort", "resilience", "strength", "motivation", "success"]
+    },
+    {
+        "prompt": "A group of friends laughing around a campfire",
+        "title": "Campfire Laughter",
+        "keywords": ["people", "emotions", "friends", "campfire", "laughter", "bonding", "night", "fun", "outdoor", "warmth"]
+    },
+    {
+        "prompt": "A person feeling inspired while painting in a studio",
+        "title": "Inspired Studio Painting",
+        "keywords": ["people", "emotions", "painting", "inspiration", "studio", "creativity", "art", "expression", "focus", "passion"]
+    },
+    {
+        "prompt": "A family comforting each other in a moment of sadness",
+        "title": "Family Comfort in Sorrow",
+        "keywords": ["people", "emotions", "family", "comfort", "sadness", "support", "empathy", "togetherness", "care", "consolation"]
+    }
+],
     "Sports & Fitness": [
         {
             "prompt": "A runner sprinting on a coastal trail at sunrise",
