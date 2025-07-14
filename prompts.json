@@ -235,22 +235,52 @@
     }
 ],
     "Nature & Environment": [
-        {
-            "prompt": "A tranquil lake surrounded by autumn trees",
-            "title": "Autumn Lake Serenity",
-            "keywords": ["nature", "lake", "autumn", "environment", "scenery"]
-        },
-        {
-            "prompt": "A lush rainforest with cascading waterfalls",
-            "title": "Rainforest Waterfall Scene",
-            "keywords": ["nature", "rainforest", "waterfall", "environment", "greenery"]
-        },
-        {
-            "prompt": "A desert landscape with golden sand dunes at sunset",
-            "title": "Desert Sunset Dunes",
-            "keywords": ["nature", "desert", "sand dunes", "sunset", "environment"]
-        }
-    ],
+    {
+        "prompt": "A tranquil lake surrounded by autumn trees",
+        "title": "Autumn Lake Serenity",
+        "keywords": ["nature", "lake", "autumn", "environment", "scenery", "trees", "tranquility", "fall", "water", "peaceful"]
+    },
+    {
+        "prompt": "A lush rainforest with cascading waterfalls",
+        "title": "Rainforest Waterfall Scene",
+        "keywords": ["nature", "rainforest", "waterfall", "environment", "greenery", "tropical", "biodiversity", "lush", "cascade", "wilderness"]
+    },
+    {
+        "prompt": "A desert landscape with golden sand dunes at sunset",
+        "title": "Desert Sunset Dunes",
+        "keywords": ["nature", "desert", "sand dunes", "sunset", "environment", "arid", "landscape", "golden", "scenic", "horizon"]
+    },
+    {
+        "prompt": "A snowy mountain peak under a clear blue sky",
+        "title": "Snowy Mountain Vista",
+        "keywords": ["nature", "mountain", "snow", "environment", "scenery", "winter", "peak", "sky", "alpine", "majestic"]
+    },
+    {
+        "prompt": "A vibrant coral reef teeming with marine life",
+        "title": "Coral Reef Ecosystem",
+        "keywords": ["nature", "coral reef", "marine", "environment", "ocean", "biodiversity", "underwater", "fish", "colorful", "sea"]
+    },
+    {
+        "prompt": "A meadow filled with wildflowers under a sunny sky",
+        "title": "Wildflower Meadow Bloom",
+        "keywords": ["nature", "meadow", "wildflowers", "environment", "scenery", "spring", "bloom", "sunny", "flora", "open"]
+    },
+    {
+        "prompt": "A rocky coastline with crashing ocean waves",
+        "title": "Coastal Wave Scene",
+        "keywords": ["nature", "coastline", "ocean", "environment", "waves", "rocky", "sea", "scenic", "shore", "dynamic"]
+    },
+    {
+        "prompt": "A dense forest with sunlight filtering through trees",
+        "title": "Sunlit Forest Canopy",
+        "keywords": ["nature", "forest", "sunlight", "environment", "trees", "canopy", "woodland", "greenery", "serene", "natural"]
+    },
+    {
+        "prompt": "A vast savanna with grazing animals at dawn",
+        "title": "Savanna Dawn Grazing",
+        "keywords": ["nature", "savanna", "animals", "environment", "dawn", "wildlife", "grassland", "scenic", "open", "natural"]
+    }
+],
     "Travel & Tourism": [
         {
             "prompt": "Tourists exploring a historic European city street",
