@@ -611,22 +611,52 @@
     }
 ],
     "Industrial & Manufacturing": [
-        {
-            "prompt": "Workers assembling products on a factory production line",
-            "title": "Factory Production Line",
-            "keywords": ["industry", "manufacturing", "workers", "production", "factory"]
-        },
-        {
-            "prompt": "A close-up of heavy machinery in an industrial plant",
-            "title": "Industrial Machinery Operation",
-            "keywords": ["industry", "machinery", "manufacturing", "plant", "equipment"]
-        },
-        {
-            "prompt": "A warehouse worker organizing inventory",
-            "title": "Warehouse Inventory Management",
-            "keywords": ["industry", "warehouse", "inventory", "manufacturing", "logistics"]
-        }
-    ],
+    {
+        "prompt": "Workers assembling products on a factory production line",
+        "title": "Factory Production Line",
+        "keywords": ["industry", "manufacturing", "workers", "production", "factory", "assembly", "line", "efficiency", "labor", "process"]
+    },
+    {
+        "prompt": "A close-up of heavy machinery in an industrial plant",
+        "title": "Industrial Machinery Operation",
+        "keywords": ["industry", "machinery", "manufacturing", "plant", "equipment", "heavy", "operation", "technology", "industrial", "mechanical"]
+    },
+    {
+        "prompt": "A warehouse worker organizing inventory",
+        "title": "Warehouse Inventory Management",
+        "keywords": ["industry", "warehouse", "inventory", "manufacturing", "logistics", "organization", "storage", "worker", "supply chain", "management"]
+    },
+    {
+        "prompt": "A robotic arm welding parts in an automotive factory",
+        "title": "Automotive Factory Robotics",
+        "keywords": ["industry", "manufacturing", "robotics", "welding", "automotive", "factory", "automation", "precision", "technology", "production"]
+    },
+    {
+        "prompt": "Workers inspecting quality control in a textile factory",
+        "title": "Textile Factory Quality Control",
+        "keywords": ["industry", "manufacturing", "textile", "quality control", "factory", "workers", "inspection", "production", "fabric", "standards"]
+    },
+    {
+        "prompt": "A steel mill with molten metal being poured",
+        "title": "Steel Mill Operations",
+        "keywords": ["industry", "manufacturing", "steel", "mill", "production", "molten metal", "industrial", "metallurgy", "heavy", "process"]
+    },
+    {
+        "prompt": "Engineers designing blueprints in a manufacturing office",
+        "title": "Manufacturing Design Office",
+        "keywords": ["industry", "manufacturing", "engineers", "design", "blueprints", "office", "planning", "technical", "innovation", "development"]
+    },
+    {
+        "prompt": "A conveyor belt moving goods in a distribution center",
+        "title": "Distribution Center Conveyor",
+        "keywords": ["industry", "manufacturing", "conveyor", "distribution", "logistics", "goods", "warehouse", "efficiency", "movement", "supply chain"]
+    },
+    {
+        "prompt": "Technicians maintaining machinery in a chemical plant",
+        "title": "Chemical Plant Maintenance",
+        "keywords": ["industry", "manufacturing", "chemical", "maintenance", "technicians", "plant", "equipment", "safety", "operations", "technical"]
+    }
+],
     "Science & Research": [
         {
             "prompt": "A scientist conducting experiments in a high-tech lab",
