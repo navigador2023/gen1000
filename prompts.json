@@ -564,22 +564,52 @@
     }
 ],
     "Arts & Entertainment": [
-        {
-            "prompt": "A painter working on a vibrant canvas in a studio",
-            "title": "Artist at Work",
-            "keywords": ["arts", "painting", "studio", "creativity", "entertainment"]
-        },
-        {
-            "prompt": "A live music concert with a crowd cheering",
-            "title": "Live Concert Energy",
-            "keywords": ["entertainment", "concert", "music", "crowd", "arts"]
-        },
-        {
-            "prompt": "A dancer performing gracefully on stage",
-            "title": "Graceful Dance Performance",
-            "keywords": ["arts", "dance", "performance", "stage", "entertainment"]
-        }
-    ],
+    {
+        "prompt": "A painter working on a vibrant canvas in a studio",
+        "title": "Artist at Work",
+        "keywords": ["arts", "painting", "studio", "creativity", "entertainment", "canvas", "colorful", "expression", "artistic", "inspiration"]
+    },
+    {
+        "prompt": "A live music concert with a crowd cheering",
+        "title": "Live Concert Energy",
+        "keywords": ["entertainment", "concert", "music", "crowd", "arts", "live", "performance", "energy", "cheering", "event"]
+    },
+    {
+        "prompt": "A dancer performing gracefully on stage",
+        "title": "Graceful Dance Performance",
+        "keywords": ["arts", "dance", "performance", "stage", "entertainment", "graceful", "movement", "choreography", "expression", "theater"]
+    },
+    {
+        "prompt": "A street artist creating a mural on a city wall",
+        "title": "Urban Mural Creation",
+        "keywords": ["arts", "mural", "street art", "creativity", "entertainment", "urban", "wall", "colorful", "public art", "expression"]
+    },
+    {
+        "prompt": "A theater group rehearsing a dramatic play",
+        "title": "Theater Play Rehearsal",
+        "keywords": ["arts", "theater", "rehearsal", "entertainment", "performance", "drama", "acting", "stage", "script", "ensemble"]
+    },
+    {
+        "prompt": "A filmmaker shooting a scene in a bustling city",
+        "title": "City Film Shoot",
+        "keywords": ["entertainment", "filmmaking", "city", "arts", "production", "cinema", "scene", "director", "camera", "urban"]
+    },
+    {
+        "prompt": "A sculptor carving a statue in a workshop",
+        "title": "Sculptor’s Workshop",
+        "keywords": ["arts", "sculpture", "workshop", "creativity", "entertainment", "carving", "statue", "craft", "artistic", "design"]
+    },
+    {
+        "prompt": "A jazz band performing in a cozy club",
+        "title": "Jazz Club Performance",
+        "keywords": ["entertainment", "jazz", "music", "club", "arts", "performance", "band", "cozy", "live", "melody"]
+    },
+    {
+        "prompt": "A group of children painting at an art workshop",
+        "title": "Children’s Art Workshop",
+        "keywords": ["arts", "painting", "workshop", "children", "entertainment", "creativity", "learning", "colorful", "expression", "fun"]
+    }
+],
     "Industrial & Manufacturing": [
         {
             "prompt": "Workers assembling products on a factory production line",
