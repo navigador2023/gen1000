@@ -846,22 +846,52 @@
     }
 ],
     "Real Estate & Interiors": [
-        {
-            "prompt": "A modern apartment with panoramic city views",
-            "title": "City View Apartment",
-            "keywords": ["real estate", "apartment", "interiors", "city view", "home"]
-        },
-        {
-            "prompt": "A cozy bedroom with soft lighting and neutral tones",
-            "title": "Cozy Bedroom Interior",
-            "keywords": ["real estate", "bedroom", "interiors", "cozy", "home"]
-        },
-        {
-            "prompt": "A spacious open-plan office with modern decor",
-            "title": "Modern Office Space",
-            "keywords": ["real estate", "office", "interiors", "modern", "workspace"]
-        }
-    ],
+    {
+        "prompt": "A modern apartment with panoramic city views",
+        "title": "City View Apartment",
+        "keywords": ["real estate", "apartment", "interiors", "city view", "home", "modern", "urban", "panoramic", "living", "luxury"]
+    },
+    {
+        "prompt": "A cozy bedroom with soft lighting and neutral tones",
+        "title": "Cozy Bedroom Interior",
+        "keywords": ["real estate", "bedroom", "interiors", "cozy", "home", "soft lighting", "neutral", "relaxation", "comfort", "design"]
+    },
+    {
+        "prompt": "A spacious open-plan office with modern decor",
+        "title": "Modern Office Space",
+        "keywords": ["real estate", "office", "interiors", "modern", "workspace", "open-plan", "decor", "professional", "functional", "design"]
+    },
+    {
+        "prompt": "A luxurious kitchen with marble countertops and stainless steel appliances",
+        "title": "Luxury Kitchen Design",
+        "keywords": ["real estate", "kitchen", "interiors", "luxury", "home", "marble", "appliances", "modern", "culinary", "elegant"]
+    },
+    {
+        "prompt": "A minimalist living room with large windows and natural light",
+        "title": "Minimalist Living Room",
+        "keywords": ["real estate", "living room", "interiors", "minimalist", "home", "windows", "natural light", "modern", "serene", "spacious"]
+    },
+    {
+        "prompt": "A rustic farmhouse with a wraparound porch",
+        "title": "Rustic Farmhouse Exterior",
+        "keywords": ["real estate", "farmhouse", "interiors", "rustic", "home", "porch", "countryside", "charm", "traditional", "cozy"]
+    },
+    {
+        "prompt": "A sleek home office with ergonomic furniture and tech gadgets",
+        "title": "Sleek Home Office",
+        "keywords": ["real estate", "home office", "interiors", "modern", "workspace", "ergonomic", "technology", "productivity", "design", "functional"]
+    },
+    {
+        "prompt": "A tropical villa with an outdoor pool and lush landscaping",
+        "title": "Tropical Villa Retreat",
+        "keywords": ["real estate", "villa", "interiors", "tropical", "home", "pool", "landscaping", "luxury", "outdoor", "paradise"]
+    },
+    {
+        "prompt": "A cozy loft with exposed brick walls and industrial decor",
+        "title": "Industrial Loft Interior",
+        "keywords": ["real estate", "loft", "interiors", "industrial", "home", "brick walls", "cozy", "urban", "design", "modern"]
+    }
+],
     "Backgrounds & Textures": [
         {
             "prompt": "A blurred cityscape background with vibrant lights",
