@@ -517,22 +517,52 @@
     }
 ],
     "Transportation": [
-        {
-            "prompt": "A sleek electric car driving on a scenic highway",
-            "title": "Electric Car Journey",
-            "keywords": ["transportation", "electric car", "highway", "travel", "vehicle"]
-        },
-        {
-            "prompt": "A busy train station with commuters boarding",
-            "title": "Train Station Commute",
-            "keywords": ["transportation", "train", "station", "commuters", "travel"]
-        },
-        {
-            "prompt": "A cargo ship docked at a bustling port",
-            "title": "Cargo Port Operations",
-            "keywords": ["transportation", "cargo ship", "port", "shipping", "logistics"]
-        }
-    ],
+    {
+        "prompt": "A sleek electric car driving on a scenic highway",
+        "title": "Electric Car Journey",
+        "keywords": ["transportation", "electric car", "highway", "travel", "vehicle", "eco-friendly", "modern", "scenic", "drive", "sustainable"]
+    },
+    {
+        "prompt": "A busy train station with commuters boarding",
+        "title": "Train Station Commute",
+        "keywords": ["transportation", "train", "station", "commuters", "travel", "public transport", "urban", "busy", "mobility", "transit"]
+    },
+    {
+        "prompt": "A cargo ship docked at a bustling port",
+        "title": "Cargo Port Operations",
+        "keywords": ["transportation", "cargo ship", "port", "shipping", "logistics", "freight", "trade", "maritime", "dock", "commerce"]
+    },
+    {
+        "prompt": "A cyclist riding through a vibrant city street",
+        "title": "Urban Cycling Adventure",
+        "keywords": ["transportation", "cycling", "city", "travel", "bike", "urban", "eco-friendly", "active", "mobility", "street"]
+    },
+    {
+        "prompt": "A hot air balloon floating over a picturesque valley",
+        "title": "Hot Air Balloon Ride",
+        "keywords": ["transportation", "hot air balloon", "valley", "travel", "adventure", "scenic", "sky", "flight", "leisure", "panoramic"]
+    },
+    {
+        "prompt": "A ferry crossing a serene lake with mountains in the background",
+        "title": "Lake Ferry Crossing",
+        "keywords": ["transportation", "ferry", "lake", "travel", "water", "scenic", "mountains", "crossing", "boat", "tranquil"]
+    },
+    {
+        "prompt": "A vintage motorcycle cruising along a coastal road",
+        "title": "Coastal Motorcycle Cruise",
+        "keywords": ["transportation", "motorcycle", "coastal", "travel", "vintage", "ride", "road", "adventure", "scenic", "freedom"]
+    },
+    {
+        "prompt": "A high-speed bullet train racing through a countryside",
+        "title": "Bullet Train Journey",
+        "keywords": ["transportation", "bullet train", "countryside", "travel", "high-speed", "rail", "modern", "transit", "speed", "scenic"]
+    },
+    {
+        "prompt": "A small airplane landing on a remote island runway",
+        "title": "Island Airplane Landing",
+        "keywords": ["transportation", "airplane", "island", "travel", "landing", "remote", "aviation", "runway", "flight", "destination"]
+    }
+],
     "Arts & Entertainment": [
         {
             "prompt": "A painter working on a vibrant canvas in a studio",
