@@ -893,20 +893,50 @@
     }
 ],
     "Backgrounds & Textures": [
-        {
-            "prompt": "A blurred cityscape background with vibrant lights",
-            "title": "Cityscape Bokeh Background",
-            "keywords": ["background", "cityscape", "bokeh", "texture", "abstract"]
-        },
-        {
-            "prompt": "A marble texture with elegant gold veins",
-            "title": "Marble Gold Texture",
-            "keywords": ["texture", "marble", "gold", "background", "elegant"]
-        },
-        {
-            "prompt": "A soft gradient background in pastel tones",
-            "title": "Pastel Gradient Background",
-            "keywords": ["background", "gradient", "pastel", "texture", "abstract"]
-        }
-    ]
+    {
+        "prompt": "A blurred cityscape background with vibrant lights",
+        "title": "Cityscape Bokeh Background",
+        "keywords": ["background", "cityscape", "bokeh", "texture", "abstract", "lights", "urban", "blurred", "vibrant", "night"]
+    },
+    {
+        "prompt": "A marble texture with elegant gold veins",
+        "title": "Marble Gold Texture",
+        "keywords": ["texture", "marble", "gold", "background", "elegant", "luxury", "veins", "stone", "design", "sophisticated"]
+    },
+    {
+        "prompt": "A soft gradient background in pastel tones",
+        "title": "Pastel Gradient Background",
+        "keywords": ["background", "gradient", "pastel", "texture", "abstract", "soft", "colors", "smooth", "calm", "minimalist"]
+    },
+    {
+        "prompt": "A rustic wooden texture with natural grain patterns",
+        "title": "Rustic Wood Texture",
+        "keywords": ["texture", "wood", "background", "rustic", "natural", "grain", "timber", "organic", "earthy", "pattern"]
+    },
+    {
+        "prompt": "A vibrant abstract watercolor background",
+        "title": "Watercolor Abstract Background",
+        "keywords": ["background", "watercolor", "abstract", "texture", "artistic", "vibrant", "colors", "fluid", "painting", "creative"]
+    },
+    {
+        "prompt": "A metallic texture with brushed steel finish",
+        "title": "Brushed Steel Texture",
+        "keywords": ["texture", "metallic", "background", "steel", "brushed", "industrial", "modern", "sleek", "metal", "design"]
+    },
+    {
+        "prompt": "A soft linen fabric texture in neutral tones",
+        "title": "Neutral Linen Texture",
+        "keywords": ["texture", "linen", "background", "neutral", "fabric", "soft", "natural", "woven", "organic", "subtle"]
+    },
+    {
+        "prompt": "A starry night sky with a cosmic nebula background",
+        "title": "Cosmic Nebula Background",
+        "keywords": ["background", "cosmic", "nebula", "texture", "abstract", "stars", "space", "galaxy", "celestial", "ethereal"]
+    },
+    {
+        "prompt": "A concrete wall texture with subtle cracks",
+        "title": "Concrete Wall Texture",
+        "keywords": ["texture", "concrete", "background", "wall", "urban", "cracks", "industrial", "raw", "grunge", "modern"]
+    }
+]
 }
