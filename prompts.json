@@ -188,22 +188,52 @@
     }
 ],
     "Lifestyle": [
-        {
-            "prompt": "A family enjoying a barbecue in their backyard",
-            "title": "Family Backyard Barbecue",
-            "keywords": ["lifestyle", "family", "barbecue", "backyard", "leisure"]
-        },
-        {
-            "prompt": "A person meditating in a serene home setting",
-            "title": "Home Meditation Practice",
-            "keywords": ["lifestyle", "meditation", "wellness", "home", "relaxation"]
-        },
-        {
-            "prompt": "Friends enjoying a casual coffee meetup at a cafe",
-            "title": "Casual Cafe Gathering",
-            "keywords": ["lifestyle", "friends", "cafe", "coffee", "social"]
-        }
-    ],
+    {
+        "prompt": "A family enjoying a barbecue in their backyard",
+        "title": "Family Backyard Barbecue",
+        "keywords": ["lifestyle", "family", "barbecue", "backyard", "leisure", "outdoor", "summer", "grilling", "togetherness", "fun"]
+    },
+    {
+        "prompt": "A person meditating in a serene home setting",
+        "title": "Home Meditation Practice",
+        "keywords": ["lifestyle", "meditation", "wellness", "home", "relaxation", "mindfulness", "calm", "zen", "peace", "serenity"]
+    },
+    {
+        "prompt": "Friends enjoying a casual coffee meetup at a cafe",
+        "title": "Casual Cafe Gathering",
+        "keywords": ["lifestyle", "friends", "cafe", "coffee", "social", "conversation", "relaxed", "community", "meetup", "cozy"]
+    },
+    {
+        "prompt": "A couple hiking in a scenic forest trail",
+        "title": "Couple Forest Hiking",
+        "keywords": ["lifestyle", "hiking", "couple", "nature", "outdoor", "adventure", "forest", "exercise", "scenic", "exploration"]
+    },
+    {
+        "prompt": "A person cooking a healthy meal in a modern kitchen",
+        "title": "Healthy Home Cooking",
+        "keywords": ["lifestyle", "cooking", "healthy", "kitchen", "nutrition", "wellness", "home", "mealprep", "fresh", "culinary"]
+    },
+    {
+        "prompt": "A group of friends playing board games at home",
+        "title": "Board Game Night",
+        "keywords": ["lifestyle", "friends", "boardgames", "home", "fun", "social", "games", "laughter", "bonding", "entertainment"]
+    },
+    {
+        "prompt": "A family gardening together in their backyard",
+        "title": "Family Gardening Session",
+        "keywords": ["lifestyle", "family", "gardening", "backyard", "nature", "outdoor", "plants", "teamwork", "growth", "sustainability"]
+    },
+    {
+        "prompt": "A person practicing yoga on a rooftop at sunrise",
+        "title": "Rooftop Yoga Practice",
+        "keywords": ["lifestyle", "yoga", "wellness", "rooftop", "sunrise", "exercise", "mindfulness", "fitness", "serenity", "balance"]
+    },
+    {
+        "prompt": "A group of people enjoying a picnic in a park",
+        "title": "Park Picnic Gathering",
+        "keywords": ["lifestyle", "picnic", "park", "friends", "outdoor", "food", "leisure", "nature", "relaxation", "community"]
+    }
+],
     "Nature & Environment": [
         {
             "prompt": "A tranquil lake surrounded by autumn trees",
