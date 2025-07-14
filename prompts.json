@@ -705,22 +705,52 @@
     }
 ],
     "Holidays & Celebrations": [
-        {
-            "prompt": "A festive holiday market with colorful lights",
-            "title": "Holiday Market Glow",
-            "keywords": ["holiday", "market", "celebration", "lights", "festive"]
-        },
-        {
-            "prompt": "A family carving pumpkins for Halloween",
-            "title": "Halloween Pumpkin Carving",
-            "keywords": ["holiday", "Halloween", "family", "pumpkin", "celebration"]
-        },
-        {
-            "prompt": "A New Year's Eve party with confetti and champagne",
-            "title": "New Year's Eve Celebration",
-            "keywords": ["holiday", "New Year", "party", "celebration", "confetti"]
-        }
-    ],
+    {
+        "prompt": "A festive holiday market with colorful lights",
+        "title": "Holiday Market Glow",
+        "keywords": ["holiday", "market", "celebration", "lights", "festive", "winter", "shopping", "decorations", "cheer", "community"]
+    },
+    {
+        "prompt": "A family carving pumpkins for Halloween",
+        "title": "Halloween Pumpkin Carving",
+        "keywords": ["holiday", "Halloween", "family", "pumpkin", "celebration", "carving", "autumn", "spooky", "fun", "tradition"]
+    },
+    {
+        "prompt": "A New Year's Eve party with confetti and champagne",
+        "title": "New Year's Eve Celebration",
+        "keywords": ["holiday", "New Year", "party", "celebration", "confetti", "champagne", "festive", "midnight", "joy", "fireworks"]
+    },
+    {
+        "prompt": "A family gathered around a decorated Christmas tree",
+        "title": "Christmas Tree Gathering",
+        "keywords": ["holiday", "Christmas", "family", "celebration", "tree", "decorations", "winter", "gifts", "tradition", "cozy"]
+    },
+    {
+        "prompt": "Children hunting for Easter eggs in a garden",
+        "title": "Easter Egg Hunt",
+        "keywords": ["holiday", "Easter", "children", "celebration", "egg hunt", "garden", "spring", "fun", "colorful", "tradition"]
+    },
+    {
+        "prompt": "A vibrant parade during a cultural festival",
+        "title": "Cultural Festival Parade",
+        "keywords": ["holiday", "festival", "parade", "celebration", "culture", "vibrant", "community", "tradition", "costumes", "music"]
+    },
+    {
+        "prompt": "A cozy Thanksgiving dinner with a roasted turkey",
+        "title": "Thanksgiving Family Dinner",
+        "keywords": ["holiday", "Thanksgiving", "dinner", "celebration", "family", "turkey", "feast", "gratitude", "autumn", "togetherness"]
+    },
+    {
+        "prompt": "People lighting fireworks during a national holiday",
+        "title": "National Holiday Fireworks",
+        "keywords": ["holiday", "fireworks", "celebration", "national", "event", "night", "lights", "festive", "patriotism", "display"]
+    },
+    {
+        "prompt": "A group celebrating Diwali with colorful rangoli designs",
+        "title": "Diwali Rangoli Celebration",
+        "keywords": ["holiday", "Diwali", "celebration", "rangoli", "culture", "lights", "colorful", "tradition", "festival", "art"]
+    }
+],
     "Fashion & Beauty": [
         {
             "prompt": "A model posing in a high-fashion outfit on a city street",
