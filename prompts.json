@@ -282,22 +282,52 @@
     }
 ],
     "Travel & Tourism": [
-        {
-            "prompt": "Tourists exploring a historic European city street",
-            "title": "Historic City Exploration",
-            "keywords": ["travel", "tourism", "city", "historic", "exploration"]
-        },
-        {
-            "prompt": "A backpacker hiking through a mountainous landscape",
-            "title": "Mountain Hiking Adventure",
-            "keywords": ["travel", "hiking", "mountains", "adventure", "tourism"]
-        },
-        {
-            "prompt": "A tropical beach with palm trees and turquoise water",
-            "title": "Tropical Beach Getaway",
-            "keywords": ["travel", "beach", "tropical", "tourism", "vacation"]
-        }
-    ],
+    {
+        "prompt": "Tourists exploring a historic European city street",
+        "title": "Historic City Exploration",
+        "keywords": ["travel", "tourism", "city", "historic", "exploration", "culture", "architecture", "sightseeing", "urban", "heritage"]
+    },
+    {
+        "prompt": "A backpacker hiking through a mountainous landscape",
+        "title": "Mountain Hiking Adventure",
+        "keywords": ["travel", "hiking", "mountains", "adventure", "tourism", "nature", "backpacking", "scenic", "outdoor", "trekking"]
+    },
+    {
+        "prompt": "A tropical beach with palm trees and turquoise water",
+        "title": "Tropical Beach Getaway",
+        "keywords": ["travel", "beach", "tropical", "tourism", "vacation", "ocean", "relaxation", "paradise", "sun", "coastal"]
+    },
+    {
+        "prompt": "A group touring ancient ruins in a desert setting",
+        "title": "Desert Ruins Tour",
+        "keywords": ["travel", "tourism", "ruins", "desert", "history", "archaeology", "adventure", "culture", "ancient", "exploration"]
+    },
+    {
+        "prompt": "A serene boat ride through a river canyon",
+        "title": "River Canyon Boat Journey",
+        "keywords": ["travel", "tourism", "river", "canyon", "boating", "nature", "scenic", "adventure", "waterway", "tranquil"]
+    },
+    {
+        "prompt": "Visitors strolling through a vibrant local market",
+        "title": "Local Market Stroll",
+        "keywords": ["travel", "tourism", "market", "local", "culture", "shopping", "vibrant", "food", "artisan", "community"]
+    },
+    {
+        "prompt": "A hot air balloon ride over rolling countryside hills",
+        "title": "Countryside Balloon Ride",
+        "keywords": ["travel", "tourism", "hot air balloon", "countryside", "scenic", "adventure", "sky", "hills", "panoramic", "experience"]
+    },
+    {
+        "prompt": "A cozy ski lodge in a snowy mountain village",
+        "title": "Mountain Ski Lodge Retreat",
+        "keywords": ["travel", "tourism", "ski", "mountains", "winter", "lodge", "snow", "cozy", "retreat", "adventure"]
+    },
+    {
+        "prompt": "A safari tour observing wildlife in an African savanna",
+        "title": "African Savanna Safari",
+        "keywords": ["travel", "tourism", "safari", "wildlife", "savanna", "Africa", "nature", "adventure", "animals", "exploration"]
+    }
+],
     "Food & Drink": [
         {
             "prompt": "A chef preparing a gourmet dish in a professional kitchen",
