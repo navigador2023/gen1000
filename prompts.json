@@ -752,22 +752,52 @@
     }
 ],
     "Fashion & Beauty": [
-        {
-            "prompt": "A model posing in a high-fashion outfit on a city street",
-            "title": "Urban Fashion Shoot",
-            "keywords": ["fashion", "model", "outfit", "city", "beauty"]
-        },
-        {
-            "prompt": "A beauty influencer applying skincare products",
-            "title": "Skincare Routine",
-            "keywords": ["beauty", "skincare", "influencer", "cosmetics", "fashion"]
-        },
-        {
-            "prompt": "A fashion designer sketching new designs in a studio",
-            "title": "Fashion Design Creation",
-            "keywords": ["fashion", "designer", "studio", "sketch", "beauty"]
-        }
-    ],
+    {
+        "prompt": "A model posing in a high-fashion outfit on a city street",
+        "title": "Urban Fashion Shoot",
+        "keywords": ["fashion", "model", "outfit", "city", "beauty", "style", "urban", "high-fashion", "photoshoot", "trend"]
+    },
+    {
+        "prompt": "A beauty influencer applying skincare products",
+        "title": "Skincare Routine",
+        "keywords": ["beauty", "skincare", "influencer", "cosmetics", "fashion", "routine", "glow", "products", "wellness", "self-care"]
+    },
+    {
+        "prompt": "A fashion designer sketching new designs in a studio",
+        "title": "Fashion Design Creation",
+        "keywords": ["fashion", "designer", "studio", "sketch", "beauty", "creativity", "design", "couture", "artistic", "inspiration"]
+    },
+    {
+        "prompt": "A runway show featuring bold avant-garde clothing",
+        "title": "Avant-Garde Runway Show",
+        "keywords": ["fashion", "runway", "clothing", "avant-garde", "beauty", "style", "show", "designer", "trend", "catwalk"]
+    },
+    {
+        "prompt": "A makeup artist creating a dramatic look for a photoshoot",
+        "title": "Dramatic Makeup Photoshoot",
+        "keywords": ["beauty", "makeup", "artist", "photoshoot", "fashion", "dramatic", "cosmetics", "style", "glamour", "creative"]
+    },
+    {
+        "prompt": "A group of friends showcasing streetwear in a vibrant neighborhood",
+        "title": "Streetwear Fashion Scene",
+        "keywords": ["fashion", "streetwear", "friends", "neighborhood", "beauty", "urban", "style", "casual", "trend", "culture"]
+    },
+    {
+        "prompt": "A hairstylist crafting an intricate updo for a special event",
+        "title": "Intricate Hairstyle Creation",
+        "keywords": ["beauty", "hairstyle", "stylist", "event", "fashion", "updo", "creative", "elegance", "hair", "glamour"]
+    },
+    {
+        "prompt": "A model wearing sustainable fashion in a natural setting",
+        "title": "Sustainable Fashion Shoot",
+        "keywords": ["fashion", "model", "sustainable", "nature", "beauty", "eco-friendly", "style", "environment", "clothing", "trend"]
+    },
+    {
+        "prompt": "A beauty vlogger filming a tutorial in a cozy studio",
+        "title": "Beauty Vlog Tutorial",
+        "keywords": ["beauty", "vlogger", "tutorial", "studio", "fashion", "cosmetics", "content", "makeup", "influencer", "creative"]
+    }
+],
     "Animals & Wildlife": [
         {
             "prompt": "A herd of elephants walking across a savanna",
